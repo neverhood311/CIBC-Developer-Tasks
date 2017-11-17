@@ -1,0 +1,15 @@
+Justin Jensen
+
+HOW TO TEST CircularArray CLASS:
+To test the CircularArray class, we'd need to test whether the array values are being stored in the
+correct location and whether we can read values from the correct location. We need to test this under
+various rotation states of the array, including:
+** a non-rotated array,
+** an array rotated by 0 (just for good measure),
+** an array rotated by a number smaller than the length of the array,
+** an array rotated by a number greater than the length of the array, and
+** an array rotated by a negative number.
+
+For each of these cases, we'd write some values to the CircularArray and a regular array and compare
+each to verify that the values are in the right place. We could then rotate the array, write values,
+and compare again, making sure that they're in the right place.
